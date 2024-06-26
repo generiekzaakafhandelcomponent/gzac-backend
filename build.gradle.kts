@@ -38,18 +38,9 @@ val valtimoVersion: String by project
 dependencies {
     implementation(platform("com.ritense.valtimo:valtimo-dependency-versions:$valtimoVersion"))
 
-    implementation("com.ritense.valtimo:valtimo-dependencies")
+    implementation("com.ritense.valtimo:valtimo-gzac-dependencies")
 
-    implementation("com.ritense.valtimo:local-document-generation")
-    implementation("com.ritense.valtimo:local-resource")
     implementation("com.ritense.valtimo:local-mail")
-    implementation("com.ritense.valtimo:milestones")
-    implementation("com.ritense.valtimo:object-management")
-    implementation("com.ritense.valtimo:objecten-api-authentication")
-    implementation("com.ritense.valtimo:objecten-api")
-    implementation("com.ritense.valtimo:objecttypen-api")
-    implementation("com.ritense.valtimo:openzaak")
-    implementation("com.ritense.valtimo:zaken-api")
 
     implementation("org.postgresql:postgresql:42.7.3")
 
