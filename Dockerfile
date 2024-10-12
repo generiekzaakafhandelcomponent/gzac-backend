@@ -1,4 +1,4 @@
-FROM openjdk:17-bullseye
+FROM eclipse-temurin:17-jre-noble
 
 ADD build/libs/gzac-backend-template.war /app.jar
 
